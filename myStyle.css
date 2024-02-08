@@ -1,0 +1,40 @@
+/* body {  
+    color:blue;  
+} */
+
+body {
+	Background-color: #c4c4ff;
+	margin: 0 10%;
+	font-family: sans-serif;
+	color: black;
+ }
+h1 {
+	text-align:center;
+	font-family: serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #000656;
+	border-bottom: 1px solid #fffb00;
+	margin-top: 30px;
+ }
+h2 {
+	color: #000656;
+	font-size: 1em;
+	text-align:center;
+	background-color: #b1b1fc;
+ }
+ a {
+	color: #00659f;
+	font-size: 1em;
+	display: block;
+	text-align: center;
+ }
+ img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+ }
+ strong {
+	background-color: #b1b1fc;
+ }
