@@ -7,34 +7,57 @@ body {
 	margin: 0 10%;
 	font-family: sans-serif;
 	color: black;
- }
+	font-size: 16px;
+}
+
 h1 {
-	text-align:center;
+	text-align: center;
 	font-family: serif;
 	font-weight: normal;
 	text-transform: uppercase;
 	color: #000656;
 	border-bottom: 1px solid #fffb00;
 	margin-top: 30px;
- }
+	font-weight: 300;
+}
+
 h2 {
 	color: #000656;
 	font-size: 1em;
-	text-align:center;
+	text-align: center;
 	background-color: #b1b1fc;
- }
- a {
+}
+
+a {
 	color: #00659f;
 	font-size: 1em;
 	display: block;
 	text-align: center;
- }
- img {
+}
+
+a:link {
+	color: rgb(0, 200, 255);
+}
+
+a:visited {
+	color: rgb(0, 34, 255);
+}
+
+a:hover {
+	color: rgb(149, 0, 255);
+}
+
+a:active {
+	color: rgb(93, 0, 255);
+}
+
+img {
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 20%;
- }
- strong {
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+strong {
 	background-color: #b1b1fc;
- }
+}
