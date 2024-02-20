@@ -52,6 +52,12 @@ a {
 	text-align: center;
 }
 
+a.top {
+	color: #00659f;
+	font-size: 1em;
+	display: block;
+}
+
 a:link {
 	color: rgb(0, 200, 255);
 }
@@ -76,6 +82,11 @@ img#img1BP {
 	padding-bottom: 10px;
 }
 
-p strong {  
-    background-color: #b1b1fc;  
+p strong {
+	background-color: #b1b1fc;
+}
+
+div.flexible {
+	display: flex;
+	justify-content: space-evenly;
 }
