@@ -17,10 +17,17 @@
 </head>
 
 <body>
+	<br>
+	<div class="Buttons">
+		<button style="background-color: rgb(174, 220, 255);", id="increaseFontButton">Increase Heading Text Size</button>
+		<button style="background-color: rgb(174, 220, 255);", id="decreaseFontButton">Reset Heading Text Size</button>
+		<button style="background-color: rgb(151, 174, 250);", id="increaseFontButton2">Increase Body Text Size</button>
+		<button style="background-color: rgb(151, 174, 250);", id="decreaseFontButton2">Reset Body Text Size</button>
+	</div>
 
 	<h1><br>The Pests of Blueberry Hill</h1>
 
-	<h2 class="TextHeading">First Encounter</h2>
+	<h2 class="TextHeading", id="FontChange1">First Encounter</h2>
 	<p class="Introduction", id = "firsttest"> It’s the 20th anniversary of Blueberry Hill, a local blueberry farm where you work. You
 		walk over to the farm's
 		shed to turn on your farm's drip irrigation system, just like you had been doing all spring. <em>“It’s just
@@ -35,8 +42,8 @@
 		stem. You pull out a magnifying glass and see tiny green <strong>aphids covering your plants.</strong>
 	</p>
 
-	<h2 class="TextHeading">What Are Aphids?</h2>
-	<p class="BodyParagraph">Aphids are a type of <em>soft-bodied insect</em> that tap into the vascular systems of
+	<h2 class="TextHeading", id="FontChange2">What Are Aphids?</h2>
+	<p class="BodyParagraph", id="paragraph2">Aphids are a type of <em>soft-bodied insect</em> that tap into the vascular systems of
 		plants and suck out
 		nutrients and sap. Due to the drought experienced by the farm, little rainfall had occurred resulting in a
 		<strong>decrease in ladybug and lacewing</strong> populations in the surrounding fields, which are natural
@@ -45,8 +52,8 @@
 			swept away</em> and kept under control by rainfall, which the farm lacked from the drought.
 	</p>
 
-	<h2 class="TextHeading">What Factors Led To Infestation?</h2>
-	<p class="BodyParagraph">Aphids are <em>relatively common</em> in most gardens and farms, but are in manageable
+	<h2 class="TextHeading", id="FontChange3">What Factors Led To Infestation?</h2>
+	<p class="BodyParagraph", id="paragraph3">Aphids are <em>relatively common</em> in most gardens and farms, but are in manageable
 		levels due to rain,
 		predators, and plants' natural defense systems, such as chemical agents in the plants' sap. Despite aphids
 		having a one month lifespan, they reproduce incredibly quickly and reach reproducing age only around four to ten
@@ -56,8 +63,13 @@
 		potential <strong>aphid outbreaks.</strong></p>
 
 	<img id="img1BP" src="Images/BlueberryPlant.png" alt="Picture of a Blueberry Plant">
+	<br>
+	<p style="text-align: center;", id="TextChange">Enter Text Below To Change The HTML Of This Element!-</p>
+	<div class="flexible">
+		<input type="text" id="myinput">
+	</div>
 
-	<h2 class="LinkHeading">Check Out Our Other Resources</h2>
+	<h2 class="LinkHeading", id="FontChange4">Check Out Our Other Resources</h2>
 	<a href="ElickerAssignment2.html">Aphid Pest Management</a>
 	<br>
 	<a href="ElickerSecondPage.html">Cover Crops for Cotton Farmers</a>
