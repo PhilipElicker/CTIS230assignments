@@ -111,13 +111,50 @@
 			width: 15%;
 			padding-bottom: 10px;
 		}
+		img#IconImage {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 15%;
+			padding-bottom: 10px;
+		}
+
+		@media only screen and (max-width: 800px) {
+			body {
+				margin: 2%;
+			}
+		}
+
+		@media only screen and (max-width: 800px) {
+			a {
+				font-size: 25px !important;
+			}
+		}
 	</style>
+	<br>
+	<img id="IconImage" src="Images/PlantImage1.png" alt="Sustainable Agriculture Logo">
+	<br>
 	<div class="flexible">
 		<div class="content"><a class="top" href="ElickerAssignment2.html">Aphid Pest Management</a></div>
 		<div class="content"><a class="top" href="ElickerSecondPage.html">Cover Crops for Cotton Farmers</a></div>
 		<div class="content"><a class="top" href="ElickerThirdPage.html">Additional Cover Crop Information</a></div>
 		<br>
 	</div>
+	<script>
+		iconimage = document.getElementById("IconImage");
+		let imageSizeToggle = 0;
+		iconimage.addEventListener("click", onClickIcon);
+
+		function onClickIcon() {
+        if (imageSizeToggle == 0) {
+            imageSizeToggle = 1
+            iconimage.style.width = "30%";
+        } else {
+            imageSizeToggle = 0
+            iconimage.style.width = "15%";
+        }
+    }
+	</script>
 </head>
 
 <body>

@@ -12,6 +12,8 @@ body2 = document.getElementById("paragraph2");
 body3 = document.getElementById("paragraph3");
 textentry = document.getElementById("myinput");  
 changedText = document.getElementById("TextChange");
+iconimage = document.getElementById("IconImage");
+let imageSizeToggle = 0;
 
     myitem.addEventListener("click", onClick);      // Adds an event listener to the "firsttest" element that listens for mouse clicks
     button1.addEventListener("click", onClickI);
@@ -19,6 +21,7 @@ changedText = document.getElementById("TextChange");
     button3.addEventListener("click", onClickI2);
     button4.addEventListener("click", onClickD2);
     textentry.addEventListener("change", onEnter);
+    iconimage.addEventListener("click", onClickIcon);
 
     function onClick() {                            // Defines what the program will do when the "firsttest" element is clicked
         myitem.style.color = "Blue";                // Changes the color of the text within the element to Blue
@@ -57,4 +60,14 @@ changedText = document.getElementById("TextChange");
     function onEnter() {  
         newtext = myinput.value;
         changedText.innerHTML = newtext;  
+    }
+
+    function onClickIcon() {
+        if (imageSizeToggle == 0) {
+            imageSizeToggle = 1
+            iconimage.style.width = "30%";
+        } else {
+            imageSizeToggle = 0
+            iconimage.style.width = "15%";
+        }
     }

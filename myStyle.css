@@ -82,6 +82,14 @@ img#img1BP {
 	padding-bottom: 10px;
 }
 
+img#IconImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	padding-bottom: 10px;
+}
+
 p strong {
 	background-color: #b1b1fc;
 }
